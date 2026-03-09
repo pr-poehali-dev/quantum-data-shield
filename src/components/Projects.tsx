@@ -4,33 +4,33 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
+    title: "Кухня в стиле неоклассика",
+    category: "Кухня",
     location: "Москва, Россия",
     year: "2024",
     image: "/images/hously-1.png",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
+    title: "Гардеробная комната",
+    category: "Гардеробная",
     location: "Санкт-Петербург, Россия",
-    year: "2023",
+    year: "2024",
     image: "/images/hously-2.png",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Гостиная со стенкой",
+    category: "Гостиная",
+    location: "Краснодар, Россия",
     year: "2023",
     image: "/images/hously-3.png",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
+    title: "Спальня с буазери",
+    category: "Спальная зона",
+    location: "Сочи, Россия",
     year: "2024",
     image: "/images/hously-4.png",
   },
@@ -70,6 +70,7 @@ export function Projects() {
           <div>
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+
           </div>
           <a
             href="#"
